@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuRumus">
+    <property name="title">
+     <string>Rumus</string>
+    </property>
+    <addaction name="actionPersegi_Panjang"/>
+    <addaction name="actionPersegi"/>
+    <addaction name="actionJajar_Genjang"/>
+    <addaction name="actionSegitiga"/>
+    <addaction name="actionBelah_Ketupat"/>
+    <addaction name="actionLayang_layang"/>
+    <addaction name="actionTrapesium"/>
+    <addaction name="actionLingkaran"/>
+   </widget>
+   <widget class="QMenu" name="menuTranslate">
+    <property name="title">
+     <string>Translate</string>
+    </property>
+    <addaction name="actionTranslate"/>
+   </widget>
+   <widget class="QMenu" name="menuCRUD">
+    <property name="title">
+     <string>CRUD</string>
+    </property>
+    <addaction name="actiontoner"/>
+    <addaction name="actionserum"/>
+    <addaction name="actionfacialwash"/>
+    <addaction name="actionmoisturizer"/>
+   </widget>
+   <addaction name="menuRumus"/>
+   <addaction name="menuTranslate"/>
+   <addaction name="menuCRUD"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionPersegi_Panjang">
+   <property name="text">
+    <string>Persegi Panjang</string>
+   </property>
+  </action>
+  <action name="actionPersegi">
+   <property name="text">
+    <string>Persegi</string>
+   </property>
+  </action>
+  <action name="actionJajar_Genjang">
+   <property name="text">
+    <string>Jajar Genjang</string>
+   </property>
+  </action>
+  <action name="actionSegitiga">
+   <property name="text">
+    <string>Segitiga</string>
+   </property>
+  </action>
+  <action name="actionBelah_Ketupat">
+   <property name="text">
+    <string>Belah Ketupat</string>
+   </property>
+  </action>
+  <action name="actionLayang_layang">
+   <property name="text">
+    <string>Layang-layang</string>
+   </property>
+  </action>
+  <action name="actionTrapesium">
+   <property name="text">
+    <string>Trapesium</string>
+   </property>
+  </action>
+  <action name="actionLingkaran">
+   <property name="text">
+    <string>Lingkaran</string>
+   </property>
+  </action>
+  <action name="actionTranslate">
+   <property name="text">
+    <string>Translate</string>
+   </property>
+  </action>
+  <action name="actiontoner">
+   <property name="text">
+    <string>toner</string>
+   </property>
+  </action>
+  <action name="actionserum">
+   <property name="text">
+    <string>serum</string>
+   </property>
+  </action>
+  <action name="actionfacialwash">
+   <property name="text">
+    <string>facialwash</string>
+   </property>
+  </action>
+  <action name="actionmoisturizer">
+   <property name="text">
+    <string>moisturizer</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
